@@ -1,11 +1,14 @@
 export default function About() {
   return (
     <>
-      <div className="flex flex-col justify-center items-start p-4 max-w-lg">
-        <h1 className="font-playfair text-4xl">
-          Hello, mon prénom est Bastien Fournier
+      <div className="flex flex-col justify-center items-start p-4 max-w-lg gap-4">
+        <h3 className="text-secondary text-2xl">
+          Développeur Web || Full-Stack
+        </h3>
+        <h1 className="font-playfair text-6xl">
+          Hello, je m&apos;appelle Bastien
         </h1>
-        <h3>Développeur Web || Full-Stack</h3>
+
         <p>
           Développeur web en reconversion, je suis formé en Full-Stack (HTML,
           CSS, JavaScript, React, Node.js) après plusieurs années
@@ -13,9 +16,20 @@ export default function About() {
           projets innovants, je recherche des opportunités pour continuer à
           apprendre et contribuer à des projets stimulants.
         </p>
-        <button className="bg-yellow-500 text-white px-4 py-2 rounded">
-          Resume
-        </button>
+        <div className="mt-5">
+          <button className="bg-yellow-500 text-black px-4 py-2 rounded mr-4">
+            Mon CV
+          </button>
+          <a
+            href="https://www.linkedin.com/in/bastien-fournier-395643179/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <button className=" text-black px-4 py-2 rounded border border-black">
+              LinkedIn
+            </button>
+          </a>
+        </div>
       </div>
     </>
   );
