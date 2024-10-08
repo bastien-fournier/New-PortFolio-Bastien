@@ -8,7 +8,7 @@ import SkillsTitle from "../components/SkillsTitle";
 export default function HomePage() {
   return (
     <>
-      <div className="flex flex-col md:flex-row items-center p-8">
+      <div className="flex flex-col md:flex-row items-center p-8 mt-14">
         <About />
         <ProfilPicture />
       </div>

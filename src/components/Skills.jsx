@@ -3,7 +3,7 @@ import Html from "../assets/html.svg";
 export default function Skills() {
   return (
     <div className="max-w-4xl mx-auto bg-white rounded-lg shadow-lg p-5 flex ">
-      <div>
+      <div className="flex-1 pr-4">
         <ul>
           <li>HTML, CSS, JavaScript</li>
           <li>React, Node.js, Express</li>

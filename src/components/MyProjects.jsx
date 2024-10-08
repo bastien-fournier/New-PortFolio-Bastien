@@ -4,12 +4,16 @@ export default function MyProjects() {
   const projects = [
     {
       id: 1,
-      text: "Projet 1 description.",
+      title: "Externatic",
+      text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. ",
+      stack: "JavaScript, Node.js, Express",
       image: Pic,
     },
     {
       id: 2,
-      text: "Projet 2 description.",
+      title: "NaosGuard",
+      text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore",
+      stack: "JavaScript, Node.js, Express",
       image: Pic,
     },
     {
@@ -20,17 +24,23 @@ export default function MyProjects() {
   ];
 
   return (
-    <div className="max-w-4xl mx-auto">
+    <div className="max-w-full mx-auto px-4">
       {projects.map((project) => (
         <div
           key={project.id}
-          className="bg-white rounded-lg shadow-lg p-5 flex mb-4"
+          className="bg-white rounded-lg shadow-lg p-4 mb-14 flex flex-col sm:flex-row"
         >
-          <p className="flex-1 pr-4">{project.text}</p>
+          <div className="flex-1 pr-0 sm:pr-4 mb-4 sm:mb-0">
+            <h2 className="text-lg font-semibold">{project.title}</h2>
+            <p>{project.text}</p>
+            <p className="text-sm text-gray-600">
+              Site développé avec {project.stack}
+            </p>
+          </div>
           <img
             src={project.image}
             alt="Image"
-            className="w-1/3 h-auto object-cover"
+            className="w-full h-auto object-cover sm:max-w-xs" // Responsive image
           />
         </div>
       ))}
