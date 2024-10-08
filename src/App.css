@@ -1,0 +1,28 @@
+@font-face {
+  font-family: "Nunito-Regular.ttf";
+  src: url("../src/assets/fonts/Nunito-Regular.ttf");
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "PlayfairDisplay-Regular.ttf";
+  src: url("../src/assets/fonts/PlayfairDisplay-Regular.ttf");
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Roboto-Regular.ttf";
+  src: url("../src/assets/fonts/Roboto-Regular.ttf");
+  font-style: normal;
+}
+
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  /* text-align: center; */
+}
+
+body {
+  background-color: #e5e5e5;
+}
