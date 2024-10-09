@@ -2,8 +2,8 @@ import About from "../components/About";
 import MyProjects from "../components/MyProjects";
 import ProfilPicture from "../components/ProfilPicture";
 import ProjectTitle from "../components/ProjectTitle";
-import Skills from "../components/Skills";
-import SkillsTitle from "../components/SkillsTitle";
+// import Skills from "../components/Skills";
+// import SkillsTitle from "../components/SkillsTitle";
 
 export default function HomePage() {
   return (
