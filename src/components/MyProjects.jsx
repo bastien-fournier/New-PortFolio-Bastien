@@ -50,13 +50,13 @@ export default function MyProjects() {
   ];
 
   return (
-    <div className=" w-2/3 mx-auto px-4 mt-10">
+    <div className="w-full sm:w-2/3 mx-auto px-4 mt-10 ">
       {projects.map((project) => (
         <div
           key={project.id}
           className="bg-white rounded-lg shadow-lg p-4 mb-14 flex flex-col sm:flex-row items-center"
         >
-          <div className="flex-1 pr-0 sm:pr-4 mb-4 sm:mb-0">
+          <div className="flex-1 p-10 sm:pr-4 mb-4 sm:mb-0">
             <h2 className="text-lg font-nunito font-bold mb-4">
               {project.title}
             </h2>
@@ -67,7 +67,6 @@ export default function MyProjects() {
               Site développé avec {project.stack}
             </p>
             <p className="mb-4">
-              {" "}
               <a
                 className="text-blue-600 hover:text-blue-800 underline hover:no-underline transition duration-300 ease-in-out"
                 href={project.link}
@@ -78,11 +77,13 @@ export default function MyProjects() {
               </a>
             </p>
           </div>
-          <img
-            src={project.image}
-            alt="Image"
-            className="w-48 h-48 object-cover " // Responsive image
-          />
+          <div className="p-10">
+            <img
+              src={project.image}
+              alt="Image"
+              className="w-48 h-48 object-cover " // Responsive image
+            />
+          </div>
         </div>
       ))}
     </div>

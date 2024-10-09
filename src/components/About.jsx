@@ -16,7 +16,7 @@ export default function About() {
           projets innovants, je recherche des opportunités pour continuer à
           apprendre et contribuer à des projets stimulants.
         </p>
-        <div className="mt-5">
+        <div className="flex mt-5">
           <a href="/CvBastienFournier.pdf" download="Bastien_Fournier_CV.pdf">
             <button className="bg-yellow-500 text-black px-4 py-2 rounded mr-4">
               Mon CV

@@ -8,7 +8,7 @@ import SkillsTitle from "../components/SkillsTitle";
 export default function HomePage() {
   return (
     <>
-      <div className="flex flex-col md:flex-row items-center p-8 mt-14">
+      <div className="flex flex-col  md:flex-row items-center p-8 md:mt-14">
         <About />
         <ProfilPicture />
       </div>
@@ -16,10 +16,10 @@ export default function HomePage() {
         <ProjectTitle />
         <MyProjects />
       </div>
-      <div className="flex flex-col content-center items-center justify-center mt-20 gap-10 mb-20">
+      {/* <div className="flex flex-col content-center items-center justify-center mt-20 gap-10 mb-20">
         <SkillsTitle />
         <Skills />
-      </div>
+      </div> */}
     </>
   );
 }
