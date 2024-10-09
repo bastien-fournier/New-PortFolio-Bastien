@@ -53,7 +53,7 @@ export default function MyProjects() {
       {projects.map((project) => (
         <div
           key={project.id}
-          className="bg-white rounded-lg shadow-lg p-4 mb-14 flex flex-col sm:flex-row items-center"
+          className="bg-white rounded-lg shadow-lg p-4 mb-14 flex flex-col sm:flex-row items-center transition-transform transform hover:scale-105 hover:shadow-xl"
         >
           <div className="flex-1 p-10 sm:pr-4 mb-4 sm:mb-0">
             <h2 className="text-lg font-nunito font-bold mb-4">
