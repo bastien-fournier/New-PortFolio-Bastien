@@ -50,11 +50,11 @@ export default function MyProjects() {
   ];
 
   return (
-    <div className=" w-2/3 mx-auto px-4">
+    <div className=" w-2/3 mx-auto px-4 mt-10">
       {projects.map((project) => (
         <div
           key={project.id}
-          className="bg-white rounded-lg shadow-lg p-4 mb-14 flex flex-col sm:flex-row"
+          className="bg-white rounded-lg shadow-lg p-4 mb-14 flex flex-col sm:flex-row items-center"
         >
           <div className="flex-1 pr-0 sm:pr-4 mb-4 sm:mb-0">
             <h2 className="text-lg font-nunito font-bold mb-4">
@@ -81,7 +81,7 @@ export default function MyProjects() {
           <img
             src={project.image}
             alt="Image"
-            className="w-48 h-48 object-cover" // Responsive image
+            className="w-48 h-48 object-cover " // Responsive image
           />
         </div>
       ))}

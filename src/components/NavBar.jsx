@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 
 export default function NavBar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -9,12 +9,15 @@ export default function NavBar() {
 
   return (
     <>
-      <nav className="flex justify-between items-center p-4">
+      <nav className="flex justify-between items-center p-4 ml-8">
         <p>Bastien Fournier</p>
         <ul className="flex space-x-20 list-none">
-          <li>A propos</li>
-          <li>Projets</li>
-          <li onClick={togglePopup} className="cursor-pointer">
+          {/* <li>A propos</li>
+          <li>Projets</li> */}
+          <li
+            onClick={togglePopup}
+            className="cursor-pointer transition duration-300 ease-in-out hover:bg-yellow-400 hover:text-black px-2 py-1 rounded"
+          >
             Contact
           </li>
         </ul>

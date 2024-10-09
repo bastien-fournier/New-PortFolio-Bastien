@@ -5,7 +5,7 @@ export default function About() {
         <h3 className="text-secondary text-2xl">
           Développeur Web || Full-Stack
         </h3>
-        <h1 className="font-playfair text-6xl">
+        <h1 className="font-playfair font-bold text-6xl">
           Hello, je m&apos;appelle Bastien
         </h1>
 
@@ -17,9 +17,11 @@ export default function About() {
           apprendre et contribuer à des projets stimulants.
         </p>
         <div className="mt-5">
-          <button className="bg-yellow-500 text-black px-4 py-2 rounded mr-4">
-            Mon CV
-          </button>
+          <a href="/CvBastienFournier.pdf" download="Bastien_Fournier_CV.pdf">
+            <button className="bg-yellow-500 text-black px-4 py-2 rounded mr-4">
+              Mon CV
+            </button>
+          </a>
           <a
             href="https://www.linkedin.com/in/bastien-fournier-395643179/"
             target="_blank"
