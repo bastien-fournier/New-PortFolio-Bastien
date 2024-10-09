@@ -29,7 +29,7 @@ export default function Footer() {
           </a>
         </div>
         <div>
-          <p>Made with ❤️ © 2024 Bastien Fournier</p>
+          <p className="font-bold">Made with ❤️ © 2024 Bastien Fournier</p>
         </div>
       </footer>
     </>

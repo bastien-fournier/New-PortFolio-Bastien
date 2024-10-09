@@ -1,4 +1,3 @@
-import Pic from "../assets/picPexels.jpg";
 import MagiCode from "../assets/magiCode.svg";
 import Externatic from "../assets/externatic.png";
 import NaosGuard from "../assets/naosGuard.png";
@@ -44,7 +43,7 @@ export default function MyProjects() {
       stack: "JavaScript",
       image: MagiCode,
       features:
-        "L'utilisateur saisit une question et reçoit une réponse aléatoire ('oui', 'on', 'peut-être').",
+        "L'utilisateur saisit une question et reçoit une réponse aléatoire ('oui', 'non', 'peut-être').",
       link: "https://github.com/YohanGH/MagiCode",
     },
   ];
