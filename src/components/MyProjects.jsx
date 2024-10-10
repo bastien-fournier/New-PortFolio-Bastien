@@ -65,22 +65,18 @@ export default function MyProjects() {
             <p className="text-sm text-gray-600 mb-4">
               Site développé avec {project.stack}
             </p>
-            <p className="mb-4">
-              <a
-                className="text-blue-600 hover:text-blue-800 underline hover:no-underline transition duration-300 ease-in-out"
-                href={project.link}
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Voir le projet sur GitHub
-              </a>
-            </p>
+
+            <a href={project.link} target="_blank" rel="noopener noreferrer">
+              <button className="bg-secondary text-black px-4 py-2 rounded mr-4 hover:bg-yellow-400 hover:shadow-lg transition duration-300">
+                Voir plus
+              </button>
+            </a>
           </div>
           <div className="p-10">
             <img
               src={project.image}
               alt="Image"
-              className="w-48 h-48 object-cover " // Responsive image
+              className="w-48 h-48 object-cover "
             />
           </div>
         </div>

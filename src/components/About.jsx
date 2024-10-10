@@ -18,7 +18,7 @@ export default function About() {
         </p>
         <div className="flex mt-5">
           <a href="/CvBastienFournier.pdf" download="Bastien_Fournier_CV.pdf">
-            <button className="bg-yellow-500 text-black px-4 py-2 rounded mr-4 hover:bg-yellow-400 hover:shadow-lg transition duration-300">
+            <button className="bg-secondary text-black px-4 py-2 rounded mr-4 hover:bg-yellow-400 hover:shadow-lg transition duration-300">
               Mon CV
             </button>
           </a>
