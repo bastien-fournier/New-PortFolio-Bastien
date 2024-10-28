@@ -12,13 +12,11 @@ export default function NavBar() {
       <nav className="flex justify-between items-center p-4 ml-8">
         <p>Bastien Fournier</p>
         <ul className="flex space-x-20 list-none">
-          {/* <li>A propos</li>
-          <li>Projets</li> */}
           <li
             onClick={togglePopup}
             className="cursor-pointer transition duration-300 ease-in-out hover:bg-yellow-400 hover:text-black px-2 py-1 rounded"
           >
-            Contact
+            Contactez-moi
           </li>
         </ul>
       </nav>

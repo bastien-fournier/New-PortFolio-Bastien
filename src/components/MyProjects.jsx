@@ -9,7 +9,7 @@ export default function MyProjects() {
       id: 1,
       title: "Externatic",
       text: "Développement d’un site de recrutement pour un cabinet de recrutement destiné aux entreprises et candidats, réalisé en groupe de trois développeurs à la Wild Code School en utilisant la méthodologie Agile/Scrum.",
-      stack: "React, JavaScript, Node.js, Express, SQL.",
+      stack: "React, JavaScript, Node.js, Express, SQL, Tailwind.",
       image: Externatic,
       features:
         "Gestion de deux profils (candidat et entreprise). Les candidats peuvent consulter et supprimer leur compte, tandis que les entreprises peuvent gérer leurs offres d'emploi (création, publication, suppression) avec des opérations CRUD et BREAD.",
@@ -20,7 +20,7 @@ export default function MyProjects() {
       id: 2,
       title: "NaosGuard",
       text: "Développement d’un site de services de petsitting, réalisé seul, avec pour objectif de présenter l’activité d’un petsitter.",
-      stack: "React, JavaScript, Node.js, Express, SQL.",
+      stack: "React, JavaScript, Node.js, Express, SQL, Tailxind.",
       image: NaosGuard,
       features:
         "Les utilisateurs non connectés peuvent consulter les avis laissés par des propriétaires de chiens. Les utilisateurs peuvent se créer un compte, se connecter et laisser un avis après une garde.",
@@ -49,7 +49,7 @@ export default function MyProjects() {
   ];
 
   return (
-    <div className="w-full sm:w-2/3 mx-auto px-4 mt-10 ">
+    <div className="w-full sm:w-2/3 md:w-1/2 mx-auto px-4 mt-10 pb-10 ">
       {projects.map((project) => (
         <div
           key={project.id}
