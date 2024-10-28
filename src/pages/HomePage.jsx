@@ -1,5 +1,4 @@
 import About from "../components/About";
-
 import MyProjects from "../components/MyProjects";
 import ProfilPicture from "../components/ProfilPicture";
 import ProjectTitle from "../components/ProjectTitle";
