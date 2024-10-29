@@ -9,7 +9,6 @@ export default function ContactForm() {
 
     const formData = new FormData(e.target);
 
-    // Envoie la requête à Getform
     fetch("https://getform.io/f/bwnnngka", {
       method: "POST",
       body: formData,
@@ -33,15 +32,12 @@ export default function ContactForm() {
       onSubmit={handleSubmit}
       className="w-full max-w-lg mx-auto p-6 mt-16 mb-16"
     >
-      <h2 className="text-2xl font-bold text-gray-800 mb-6 text-center">
+      <h2 className="text-2xl font-bold text-black mb-6 text-center">
         Envoyez-moi un message
       </h2>
 
       <div className="mb-6">
-        <label
-          className="block text-gray-700 text-sm font-bold mb-2"
-          htmlFor="name"
-        >
+        <label className="block text-black  mb-2" htmlFor="name">
           Nom
         </label>
         <input
@@ -53,10 +49,7 @@ export default function ContactForm() {
       </div>
 
       <div className="mb-6">
-        <label
-          className="block text-gray-700 text-sm font-bold mb-2"
-          htmlFor="email"
-        >
+        <label className="block text-black mb-2" htmlFor="email">
           Email
         </label>
         <input
@@ -68,10 +61,7 @@ export default function ContactForm() {
       </div>
 
       <div className="mb-6">
-        <label
-          className="block text-gray-700 text-sm font-bold mb-2"
-          htmlFor="message"
-        >
+        <label className="block text-black mb-2" htmlFor="message">
           Message
         </label>
         <textarea
@@ -84,7 +74,7 @@ export default function ContactForm() {
 
       <button
         type="submit"
-        className="w-full py-2 px-4 border-2 bg-secondary text-black font-semibold rounded-md hover:bg-yellow-100 focus:outline-none focus:ring-2 focus:ring-secondary focus:ring-opacity-50 transition ease-in-out duration-200"
+        className="bg-secondary text-black px-4 py-2 rounded hover:bg-yellow-400 hover:shadow-lg transition duration-300"
       >
         {formStatus}
       </button>
