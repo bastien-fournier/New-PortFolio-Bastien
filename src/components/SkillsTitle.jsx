@@ -6,7 +6,7 @@ export default function SkillsTitle() {
       <div className="ml-0 lg:ml-40">
         <figure className="flex flex-col items-center">
           <img
-            className="w-48 h-48 sm:w-48 sm:h-48 md:w-64 md:h-64 lg:w-96 lg:h-96 object-contain "
+            className="max-w-full max-h-full sm:max-w-full sm:max-h-full md:max-w-full md:max-h-full lg:max-w-full lg:max-h-full object-cover shadow-lg rounded-lg"
             src={GroupePicture}
             alt="Groupe"
           />
