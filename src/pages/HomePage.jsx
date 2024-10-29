@@ -14,7 +14,7 @@ export default function HomePage() {
         <ProfilPicture />
       </div>
 
-      <div className="flex flex-col-reverse md:flex-row justify-center items-center p-6 md:p-12 lg:p-16 xl:p-20 gap-8 md:gap-16 lg:gap-96">
+      <div className="flex flex-col-reverse md:flex-row justify-center items-center p-4 sm:p-6 md:p-8 lg:p-12 xl:p-16 gap-6 sm:gap-8 md:gap-12 lg:gap-20 xl:gap-80">
         <SkillsTitle />
         <Skills />
       </div>
