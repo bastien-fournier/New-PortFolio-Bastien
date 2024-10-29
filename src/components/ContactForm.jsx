@@ -32,7 +32,7 @@ export default function ContactForm() {
       onSubmit={handleSubmit}
       className="w-full max-w-lg mx-auto p-6 mt-16 mb-16"
     >
-      <h2 className="text-2xl font-bold text-black mb-6 text-center">
+      <h2 className="text-2xl  text-black mb-6 text-center">
         Envoyez-moi un message
       </h2>
 
