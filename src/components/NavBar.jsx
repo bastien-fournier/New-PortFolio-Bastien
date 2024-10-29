@@ -24,12 +24,12 @@ export default function NavBar() {
       {isOpen && (
         <div className="fixed inset-0 flex items-center justify-center bg-black bg-opacity-50">
           <div className="bg-white rounded-lg p-6">
-            <h2 className="text-lg font-bold mb-2">Mes Coordonnées</h2>
+            <h2 className="text-lg  mb-2">Mes Coordonnées</h2>
             <p>✉️ bastien.fournier06@gmail.com</p>
             <p>☎️ 06 11 43 52 54</p>
             <button
               onClick={togglePopup}
-              className="mt-4 bg-secondary text-black font-bold py-2 px-4 rounded"
+              className="mt-4 bg-secondary text-black  py-2 px-4 rounded"
             >
               Fermer
             </button>

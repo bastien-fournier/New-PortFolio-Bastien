@@ -49,7 +49,7 @@ export default function MyProjects() {
   ];
 
   return (
-    <div className="w-full sm:w-1/3 md:w-3/4 mx-auto px-4 mt-10 pb-10 grid grid-cols-1 md:grid-cols-2 gap-8">
+    <div className="w-full sm:w-1/3 md:w-3/4 mx-auto px-4 mt-5 pb-10 grid grid-cols-1 md:grid-cols-2 gap-8">
       {projects.map((project) => (
         <div
           key={project.id}
