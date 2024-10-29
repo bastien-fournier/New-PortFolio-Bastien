@@ -49,33 +49,32 @@ export default function MyProjects() {
   ];
 
   return (
-    <div className="w-full sm:w-2/3 md:w-1/2 mx-auto px-4 mt-10 pb-10 ">
+    <div className="w-full sm:w-2/3 md:w-3/4 mx-auto px-4 mt-10 pb-10 grid grid-cols-1 md:grid-cols-2 gap-8">
       {projects.map((project) => (
         <div
           key={project.id}
-          className="bg-white rounded-lg shadow-lg p-4 mb-14 flex flex-col sm:flex-row items-center transition-transform transform hover:scale-105 hover:shadow-xl"
+          className="bg-white rounded-lg shadow-lg p-4 flex flex-col items-center transition-transform transform hover:scale-105 hover:shadow-xl"
         >
-          <div className="flex-1 p-10 sm:pr-4 mb-4 sm:mb-0">
+          <div className="flex-1 p-4 sm:pr-4 mb-4 sm:mb-0">
             <h2 className="text-lg font-nunito font-bold mb-4">
               {project.title}
             </h2>
             <p className="mb-4">{project.text}</p>
             <p className="mb-4">{project.features}</p>
-            <p className="mb-4">{project.defi}</p>
             <p className="text-sm text-gray-600 mb-4">
               Site développé avec {project.stack}
             </p>
 
             <a href={project.link} target="_blank" rel="noopener noreferrer">
-              <button className="bg-secondary text-black px-4 py-2 rounded mr-4 hover:bg-yellow-400 hover:shadow-lg transition duration-300">
+              <button className="bg-secondary text-black px-4 py-2 rounded hover:bg-yellow-400 hover:shadow-lg transition duration-300">
                 Voir plus
               </button>
             </a>
           </div>
-          <div className="p-10">
+          <div className="p-4">
             <img
               src={project.image}
-              alt="Image"
+              alt={project.title}
               className="w-48 h-48 object-cover "
             />
           </div>

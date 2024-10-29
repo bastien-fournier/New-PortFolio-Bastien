@@ -1,7 +1,7 @@
 export default function ProjectTitle() {
   return (
     <div>
-      <h2 className="font-playfair text-4xl font-bold">Mes projets</h2>
+      <h2 className="font-playfair font-bold text-6xl">Mes projets</h2>
     </div>
   );
 }
