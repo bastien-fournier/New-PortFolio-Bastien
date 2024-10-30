@@ -21,7 +21,7 @@ export default function Skills() {
           et la communication.
         </li>
         <li>
-          <strong>UI/UX et utilisation de Figma</strong> : Je conçoits des
+          <strong>UI/UX et utilisation de Figma</strong> : Je conçois des
           applications esthétiques et intuitives.
         </li>
         <li>
