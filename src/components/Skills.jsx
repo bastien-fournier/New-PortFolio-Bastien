@@ -1,7 +1,7 @@
 export default function Skills() {
   return (
     <div className="flex flex-col justify-center items-start p-4 sm:p-6 md:p-8 max-w-lg gap-4">
-      <h1 className="font-playfair font-bold text-4xl sm:text-5xl lg:text-6xl">
+      <h1 className="font-playfair font-bold text-4xl sm:text-5xl lg:text-5xl">
         Mes Skills
       </h1>
       <h3 className="text-secondary text-xl sm:text-2xl">En développement</h3>
