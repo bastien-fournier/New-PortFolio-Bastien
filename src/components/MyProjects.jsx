@@ -24,7 +24,7 @@ export default function MyProjects() {
       image: NaosGuard,
       features:
         "Les utilisateurs non connectés peuvent consulter les avis laissés par des propriétaires de chiens. Les utilisateurs peuvent créer un compte, se connecter et laisser un avis après une garde.",
-      link: "https://github.com/bastien-fournier/Naos-s-Guard-Pet-Sitting",
+      link: "https://github.com/bastien-fournier/V2-Site-Petsitting",
     },
     {
       id: 3,
