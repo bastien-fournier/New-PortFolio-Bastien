@@ -9,12 +9,12 @@ import SkillsTitle from "../components/SkillsTitle";
 export default function HomePage() {
   return (
     <>
-      <div className="flex flex-col md:flex-row justify-center items-center p-6 md:p-12 lg:p-16 xl:p-20 gap-8 md:gap-16 mt-10 ">
+      <div className="flex flex-col md:flex-row justify-center items-center p-6 md:p-12 lg:p-16 xl:p-20 gap-8 md:gap-16  ">
         <About />
         <ProfilPicture />
       </div>
 
-      <div className="flex flex-col-reverse md:flex-row justify-center items-center p-4 sm:p-6 md:p-8 lg:p-12 xl:p-16 gap-6 sm:gap-8 md:gap-12 lg:gap-20 xl:gap-80">
+      <div className="flex flex-col-reverse md:flex-row justify-center items-center p-4 sm:p-6    lg:gap-2 xl:gap-72">
         <SkillsTitle />
         <Skills />
       </div>

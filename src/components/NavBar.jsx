@@ -9,7 +9,7 @@ export default function NavBar() {
 
   return (
     <>
-      <nav className="flex justify-between items-center p-4 ml-8">
+      <nav className="flex justify-between items-center p-4 mr-8 ml-8 mt-3">
         <p>Bastien Fournier</p>
         <ul className="flex space-x-20 list-none">
           <li
