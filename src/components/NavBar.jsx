@@ -14,7 +14,7 @@ export default function NavBar() {
         <ul className="flex space-x-20 list-none">
           <li
             onClick={togglePopup}
-            className="cursor-pointer transition duration-300 ease-in-out hover:bg-yellow-400 hover:text-black px-2 py-1 rounded"
+            className="bg-secondary text-black px-4 py-2 rounded mr-4 hover:bg-yellow-400 hover:shadow-lg transition duration-300"
           >
             Contactez-moi
           </li>
