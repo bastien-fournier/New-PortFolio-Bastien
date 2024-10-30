@@ -1,5 +1,7 @@
 import { useState } from "react";
 
+import Stabilo from "../assets/stabilo.png";
+
 export default function ContactForm() {
   const [formStatus, setFormStatus] = useState("Envoyer");
 
@@ -30,13 +32,29 @@ export default function ContactForm() {
   return (
     <form
       onSubmit={handleSubmit}
-      className="w-full max-w-lg mx-auto p-6 mt-16 mb-16"
+      className="w-full max-w-lg mx-auto p-6 mt-10 mb-16"
     >
       <h2 className="text-2xl  text-black mb-6 text-center">
         Envoyez-moi un message
       </h2>
-
-      <div className="mb-6">
+      <p
+        style={{
+          backgroundImage: `url(${Stabilo})`, // Utiliser le modèle de chaîne pour l'URL
+          backgroundSize: "cover", // S'assure que l'image couvre toute la zone
+          backgroundPosition: "center", // Centre l'image
+          height: "100px", // Hauteur de l'élément
+          color: "black", // Couleur du texte
+          display: "flex", // Pour centrer le texte
+          alignItems: "center", // Centre verticalement
+          justifyContent: "center", // Centre horizontalement
+          textAlign: "center", // Aligne le texte au centre
+          // Ajoute un peu de remplissage
+        }}
+      >
+        N’hésitez pas à me contacter pour en savoir plus sur mon parcours ou
+        discuter de mes motivations !
+      </p>
+      <div className="mb-6 mt-4">
         <label className="block text-black  mb-2" htmlFor="name">
           Nom
         </label>

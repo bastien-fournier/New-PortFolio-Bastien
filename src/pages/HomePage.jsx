@@ -21,7 +21,7 @@ export default function HomePage() {
 
       <div className="flex flex-col items-center justify-center mt-10 md:mt-14 lg:mt-10 gap-8 md:gap-10">
         <ProjectTitle />
-        <div className="w-full md:w-auto p-8">
+        <div className="w-3/4 md:w-auto ">
           <MyProjects />
         </div>
       </div>

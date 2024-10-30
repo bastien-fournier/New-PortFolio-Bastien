@@ -20,7 +20,7 @@ export default function MyProjects() {
       id: 2,
       title: "NaosGuard",
       text: "Développement d’un site de services de petsitting, réalisé seul, avec pour objectif de présenter l’activité d’un petsitter.",
-      stack: "React, JavaScript, Node.js, Express, SQL, Tailxind.",
+      stack: "React, JavaScript, Node.js, Express, SQL, Tailwind.",
       image: NaosGuard,
       features:
         "Les utilisateurs non connectés peuvent consulter les avis laissés par des propriétaires de chiens. Les utilisateurs peuvent se créer un compte, se connecter et laisser un avis après une garde.",
