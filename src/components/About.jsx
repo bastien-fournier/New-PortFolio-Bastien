@@ -12,10 +12,21 @@ export default function About() {
         <p>
           Développeur web en reconversion, je suis formé en Full-Stack (HTML,
           CSS, JavaScript, React, Node.js) après plusieurs années
-          d&apos;expérience en commerce. Passionné par les technologies et les
-          projets innovants, je recherche des opportunités pour continuer à
-          apprendre et contribuer à des projets stimulants.
+          d&apos;expérience en commerce et en relation client, notamment dans le
+          secteur de l&apos;assurance.
         </p>
+        <p>
+          Cette expérience m&apos;a permis de développer un sens aigu de
+          l&apos;écoute, de la résolution de problèmes et de la relation
+          commerciale, des compétences que j&apos;applique aujourd&apos;hui dans
+          mes projets de développement.
+        </p>
+        <p>
+          Passionné par les technologies et les projets innovants, je recherche
+          des opportunités pour continuer à apprendre, mettre à profit mon
+          expertise relationnelle, et contribuer à des projets stimulants.
+        </p>
+
         <div className="flex mt-5">
           <a href="/CVBastienFournier.pdf" download="Bastien_Fournier_CV.pdf">
             <button className="bg-secondary text-black px-4 py-2 rounded mr-4 hover:bg-yellow-400 hover:shadow-lg transition duration-300">

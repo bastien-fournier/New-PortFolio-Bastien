@@ -39,16 +39,15 @@ export default function ContactForm() {
       </h2>
       <p
         style={{
-          backgroundImage: `url(${Stabilo})`, // Utiliser le modèle de chaîne pour l'URL
-          backgroundSize: "cover", // S'assure que l'image couvre toute la zone
-          backgroundPosition: "center", // Centre l'image
-          height: "100px", // Hauteur de l'élément
-          color: "black", // Couleur du texte
-          display: "flex", // Pour centrer le texte
-          alignItems: "center", // Centre verticalement
-          justifyContent: "center", // Centre horizontalement
-          textAlign: "center", // Aligne le texte au centre
-          // Ajoute un peu de remplissage
+          backgroundImage: `url(${Stabilo})`,
+          backgroundSize: "cover",
+          backgroundPosition: "center",
+          height: "100px",
+          color: "black",
+          display: "flex",
+          alignItems: "center",
+          justifyContent: "center",
+          textAlign: "center",
         }}
       >
         N’hésitez pas à me contacter pour en savoir plus sur mon parcours ou

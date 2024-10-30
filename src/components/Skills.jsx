@@ -6,12 +6,12 @@ export default function Skills() {
       </h1>
       <h3 className="text-secondary text-xl sm:text-2xl">En développement</h3>
 
-      <p className="mb-4 sm:mb-5 text-sm sm:text-base lg:text-lg">
+      <p className="mb-4 sm:mb-5  ">
         Voici un aperçu de mes compétences en développement web et des outils
         que j&apos;utilise régulièrement pour mener à bien les projets.
       </p>
 
-      <ul className="list-disc list-inside space-y-2 text-sm sm:text-base lg:text-lg">
+      <ul className="list-disc list-inside space-y-2 ">
         <li>
           <strong>Développement Full-Stack</strong>: Je maîtrise le
           développement tant côté client qu&apos;en back-end.
