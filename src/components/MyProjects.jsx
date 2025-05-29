@@ -7,43 +7,46 @@ export default function MyProjects() {
   const projects = [
     {
       id: 1,
-      title: "Externatic",
-      text: "Développement d’un site de recrutement pour un cabinet de recrutement destiné aux entreprises et candidats, réalisé en groupe de trois développeurs à la Wild Code School en utilisant la méthodologie Agile/Scrum.",
-      stack: "React, JavaScript, Node.js, Express, SQL, Tailwind.",
+      title: "Externatic — Plateforme de recrutement",
+      text: "Projet réalisé en équipe de trois développeurs dans le cadre de la Wild Code School, en méthode Agile/Scrum. Contribution à la structuration du backlog, à la définition des besoins utilisateurs et à la coordination fonctionnelle.",
+      stack: "React, JavaScript, Node.js, Express, SQL, Tailwind",
       image: Externatic,
       features:
-        "Gestion de deux profils, candidat et entreprise. Les candidats peuvent consulter et supprimer leur compte, tandis que les entreprises peuvent gérer leurs offres d'emploi (création, publication, suppression) avec des opérations CRUD et BREAD.",
-      // defi: "Coordination des différents rôles et fonctionnalités tout en maintenant une architecture propre et évolutive sur le back-end et le front-end.",
+        "Gestion de deux profils : candidat (création, consultation, suppression de compte) et entreprise (gestion des offres d'emploi avec opérations CRUD). Parcours utilisateur structuré, travail sur l'expérience et l'accessibilité.",
+      defi: "Cadrage des fonctionnalités, priorisation des tâches et pilotage en méthode Agile tout au long du développement.",
       link: "https://github.com/WildCodeSchool-2024-02/JS-lyon-0224-P3-careercatchers",
     },
     {
       id: 2,
-      title: "NaosGuard",
-      text: "Développement d’un site de services de petsitting, réalisé seul, avec pour objectif de présenter l’activité d’un petsitter.",
-      stack: "React, JavaScript, Node.js, Express, SQL, Tailwind.",
+      title: "NaosGuard — Plateforme de petsitting",
+      text: "Projet réalisé en autonomie, de la définition des besoins jusqu'au développement complet. Structuration des parcours utilisateurs, prototypage, développement full-stack et recette fonctionnelle.",
+      stack: "React, JavaScript, Node.js, Express, SQL, Tailwind",
       image: NaosGuard,
       features:
-        "Les utilisateurs non connectés peuvent consulter les avis laissés par des propriétaires de chiens. Les utilisateurs peuvent créer un compte, se connecter et laisser un avis après une garde.",
+        "Création de comptes utilisateurs, authentification, consultation et dépôt d’avis après une garde. Possibilité pour les visiteurs non connectés de consulter les retours clients. Parcours simple et intuitif.",
+      defi: "Cadrage du projet, conception UX, priorisation des fonctionnalités et développement en autonomie selon une approche produit.",
       link: "https://github.com/bastien-fournier/V2-Site-Petsitting",
     },
     {
       id: 3,
-      title: "Holiday Planner",
-      text: "Développement d’un site d’information sur les jours fériés dans le monde, réalisé en groupe de trois développeurs avec l'aide de la méthodologie Agile/Scrum et en utilisant une API.",
+      title: "Holiday Planner — Jours fériés dans le monde",
+      text: "Projet d’équipe mené à trois développeurs dans le cadre de la Wild Code School, en méthode Agile/Scrum. Contribution à la structuration des parcours utilisateurs, à l’intégration d’API et à l’organisation des sprints.",
       stack: "React, JavaScript",
       image: LazyDay,
       features:
-        "Permet aux utilisateurs d'afficher les jours fériés d'une année spécifique pour un pays sélectionné.",
+        "L’utilisateur peut sélectionner un pays et une année pour afficher les jours fériés correspondants, grâce à une API publique. Interface claire avec affichage dynamique des résultats.",
+      defi: "Travail collaboratif en sprint, intégration d’API externe, gestion du planning et coordination pour assurer la cohérence fonctionnelle de l’outil.",
       link: "https://github.com/WildCodeSchool-2024-02/JS-lyon-0224-P2-holidays_planner",
     },
     {
       id: 4,
-      title: "MagiCode",
-      text: "Développement d’un jeu sous forme de boule divinatoire, réalisé en groupe de trois développeurs pour notre premier projet de formation.",
+      title: "MagiCode — Jeu interactif divinatoire",
+      text: "Premier projet d’équipe réalisé à trois développeurs en début de formation. Conception d’un mini-jeu interactif basé sur une logique aléatoire, avec attention portée à la clarté fonctionnelle et à l’expérience utilisateur.",
       stack: "JavaScript",
       image: MagiCode,
       features:
-        "L'utilisateur saisit une question et reçoit une réponse aléatoire ('oui', 'non', 'peut-être').",
+        "L'utilisateur pose une question puis obtient une réponse aléatoire ('oui', 'non', 'peut-être'). Interface minimaliste et réactive, pensée pour un usage simple et immédiat.",
+      defi: "Structuration d’un projet en équipe, gestion de la logique métier, premiers pas en JavaScript et restitution orale du projet en public.",
       link: "https://github.com/YohanGH/MagiCode",
     },
   ];
@@ -61,6 +64,7 @@ export default function MyProjects() {
             </h2>
             <p className="mb-4">{project.text}</p>
             <p className="mb-4">{project.features}</p>
+            <p className="mb-4">{project.defi}</p>
             <p className="text-sm text-gray-600 mb-4">
               Site développé avec {project.stack}
             </p>

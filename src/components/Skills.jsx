@@ -4,7 +4,9 @@ export default function Skills() {
       <h1 className="font-playfair font-bold text-4xl sm:text-5xl lg:text-5xl">
         Mes skills
       </h1>
-      <h3 className="text-secondary text-xl sm:text-2xl">Développement Web</h3>
+      <h3 className="text-secondary text-xl sm:text-2xl">
+        Expertise métier & relation client
+      </h3>
 
       {/* <p className="mb-4 sm:mb-5  ">
         Voici un aperçu de mes compétences en développement web et des outils
@@ -13,43 +15,58 @@ export default function Skills() {
 
       <ul className="list-disc list-inside space-y-2 ">
         <li>
-          <strong>Développement Full-Stack</strong> : Je maîtrise le
-          développement tant côté client qu&apos;en back-end.
+          <strong>Assurance IARD & Construction</strong> : Maîtrise des
+          produits, contrats et procédures, en compagnie et en cabinet de
+          courtage.
         </li>
         <li>
-          <strong>Travail d&apos;équipe</strong> : Je valorise la collaboration
-          et la communication.
+          <strong>Analyse des besoins métiers </strong> : Capacité à comprendre,
+          reformuler et structurer les attentes des utilisateurs.
         </li>
         <li>
-          <strong>UI/UX et utilisation de Figma</strong> : Je conçois des
-          applications esthétiques et intuitives.
+          <strong>Relation client & pédagogie</strong> : Sens de l’écoute, de la
+          communication claire et du conseil personnalisé.
         </li>
-        <li>
+        {/* <li>
           <strong>Outils de versionnage et collaboration</strong> :
           J&apos;utilise Git et GitHub efficacement.
-        </li>
-        <li>
+        </li> */}
+        {/* <li>
           <strong>Méthodologie Agile/Scrum</strong> : Je m&apos;adapte aux
           changements de priorités pour des résultats continus.
-        </li>
+        </li> */}
       </ul>
       <h3 className="text-secondary text-xl sm:text-2xl">
-        Savoir-Faire Commercial
+        Coordination & gestion de projet digital
       </h3>
       <ul className="list-disc list-inside space-y-2 ">
         <li>
-          <strong>Relation Client</strong> : J&apos;ai acquis une forte capacité
-          d&apos;écoute et de compréhension des besoins des clients.
+          <strong>Méthodologie Agile / Scrum </strong> : Expérience de travail
+          en sprint, gestion de backlog, rédaction de user stories.
         </li>
         <li>
-          <strong>Communication et Présentation</strong> : Je maîtrise les
-          techniques de communication, essentielles pour collaborer efficacement
-          avec les équipes.
+          <strong>Suivi fonctionnel </strong> : Participation à la recette,
+          tests utilisateurs, amélioration continue.
         </li>
         <li>
-          <strong>Satisfaction Client</strong> : Mon expérience en relation
-          client m&apos;a permis de comprendre l&apos;importance de la
-          satisfaction client.
+          <strong>Collaboration transverse</strong> : Capacité à faire le lien
+          entre métiers, équipes techniques et utilisateurs finaux.
+        </li>
+      </ul>
+      <h3 className="text-secondary text-xl sm:text-2xl">
+        Développement web & outils numérique
+      </h3>
+      <ul className="list-disc list-inside space-y-2 ">
+        <li>
+          <strong>Développement Full-Stack</strong> : HTML, CSS, JavaScript,
+          React, Node.js, SQL
+        </li>
+        <li>
+          <strong>UX/UI & prototypage</strong> : Utilisation de Figma pour
+          concevoir des interfaces claires et intuitives.
+        </li>
+        <li>
+          <strong>Outils collaboratifs</strong> : Git, GitHub, Trello, Notion.
         </li>
       </ul>
       <div className="flex mt-5">
